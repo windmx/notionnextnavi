@@ -1,12 +1,12 @@
 const CONFIG = {
   HEO_HOME_BANNER_ENABLE: true,
 
-  HEO_SITE_CREATE_TIME: '2021-09-21', // 建站日期，用于计算网站运行的第几天
+  HEO_SITE_CREATE_TIME: '1949-10-01', // 建站日期，用于计算网站运行的第几天
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: '欢迎来到我的博客', url: 'https://blog.tangly1024.com' },
-    { title: '访问文档中心获取更多帮助', url: 'https://docs.tangly1024.com' }
+    { title: '生有涯，学无涯', url: 'https://dumengxi.com' },
+    { title: '有涯穷无涯', url: 'https://dumengxi.com' }
   ],
 
   // 英雄区左右侧组件颠倒位置
@@ -15,17 +15,17 @@ const CONFIG = {
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
-  HEO_HERO_TITLE_1: '分享编程',
-  HEO_HERO_TITLE_2: '与思维认知',
-  HEO_HERO_TITLE_3: 'TANGLY1024.COM',
-  HEO_HERO_TITLE_4: '新版上线',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 轻松定制主题',
-  HEO_HERO_TITLE_LINK: 'https://tangly1024.com',
+  HEO_HERO_TITLE_1: '投资与互联网',
+  HEO_HERO_TITLE_2: '梦溪笔谈',
+  // HEO_HERO_TITLE_3: 'TANGLY1024.COM',
+  HEO_HERO_TITLE_4: '不定期更新',
+  HEO_HERO_TITLE_5: '关于金融和人生',
+  HEO_HERO_TITLE_LINK: 'https://dumengxi.com',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: '必看精选', url: '/tag/必看精选' },
-  HEO_HERO_CATEGORY_2: { title: '热门文章', url: '/tag/热门文章' },
-  HEO_HERO_CATEGORY_3: { title: '实用教程', url: '/tag/实用教程' },
+  HEO_HERO_CATEGORY_1: { title: '推荐', url: '/tag/推荐' },
+  HEO_HERO_CATEGORY_2: { title: '视频', url: '/tag/视频' },
+  HEO_HERO_CATEGORY_3: { title: '投资', url: '/tag/投资' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: '推荐',
@@ -35,17 +35,15 @@ const CONFIG = {
   // 右侧个人资料卡牌欢迎语，点击可自动切换
   HEO_INFOCARD_GREETINGS: [
     '你好！我是',
-    '🔍 分享与热心帮助',
-    '🤝 专修交互与设计',
-    '🏃 脚踏实地行动派',
-    '🏠 智能家居小能手',
-    '🤖️ 数码科技爱好者',
-    '🧱 团队小组发动机'
+    '🔍 一级搬砖人员',
+    '💰 二级套利专家',
+    '🦙 互联网羊毛党',
+    '🏠 汪曾祺&伍佰',
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/tangly1024/NotionNext', // 个人资料底部按钮链接
+  HEO_INFO_CARD_URL: 'https://dumengxi.com', // 个人资料底部按钮链接
 
   // 用户技能图标
-  HEO_GROUP_ICONS: [
+  /* HEO_GROUP_ICONS: [
     {
       title_1: 'AfterEffect',
       img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
@@ -102,13 +100,13 @@ const CONFIG = {
       img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
       color_2: '#1f1f1f'
     }
-  ],
+  ],*/
 
-  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
-  HEO_SOCIAL_CARD_TITLE_1: '交流频道',
-  HEO_SOCIAL_CARD_TITLE_2: '加入我们的社群讨论分享',
-  HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
-  HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
+  // HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  // HEO_SOCIAL_CARD_TITLE_1: '关注我',
+  // HEO_SOCIAL_CARD_TITLE_2: '加入我的社群交流',
+  // HEO_SOCIAL_CARD_TITLE_3: '点击加入社群',
+  // HEO_SOCIAL_CARD_URL: 'https://docs.tangly1024.com/article/how-to-question',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置

@@ -17,7 +17,7 @@ const CONFIG = {
   // 英雄区(首页顶部大卡)
   HEO_HERO_TITLE_1: '投资与互联网',
   HEO_HERO_TITLE_2: '梦溪笔谈',
-  // HEO_HERO_TITLE_3: 'TANGLY1024.COM',
+  HEO_HERO_TITLE_3: '人间漫游指南',
   HEO_HERO_TITLE_4: '不定期更新',
   HEO_HERO_TITLE_5: '关于金融和人生',
   HEO_HERO_TITLE_LINK: 'https://dumengxi.com',
@@ -43,7 +43,7 @@ const CONFIG = {
   HEO_INFO_CARD_URL: 'https://dumengxi.com', // 个人资料底部按钮链接
 
   // 用户技能图标
-  /* HEO_GROUP_ICONS: [
+  HEO_GROUP_ICONS: [
     {
       title_1: 'AfterEffect',
       img_1: '/images/heo/20239df3f66615b532ce571eac6d14ff21cf072602.webp',
@@ -100,7 +100,7 @@ const CONFIG = {
       img_2: '/images/heo/20231ca53fa0b09a3ff1df89acd7515e9516173302.webp',
       color_2: '#1f1f1f'
     }
-  ],*/
+  ],
 
   // HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
   // HEO_SOCIAL_CARD_TITLE_1: '关注我',

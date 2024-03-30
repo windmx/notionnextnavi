@@ -135,7 +135,7 @@ export const Footer = (props) => {
                     target="_blank"
                     className="px-1 text-gray-1 hover:underline"
                   >
-                    NotionNext {siteConfig('VERSION')}
+                     梦溪笔谈 {siteConfig('VERSION')}
                   </a>
                 </p>
               </div>
